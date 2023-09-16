@@ -60,7 +60,7 @@ export default function Home() {
             className="button flex justify-center items-center"
             onClick={handleButtonClick}
           >
-            <Image src="shape.svg" width={28} height={28} />
+            <Image src="/shape.png" width={28} height={28} />
           </button>
         </div>
       </div>
