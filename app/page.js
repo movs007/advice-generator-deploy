@@ -34,7 +34,7 @@ export default function Home() {
                 className="text-center"
                 style={{
                   color: "#53FFAA",
-                  fontSize: "13px",
+                  fontSize: "0.8125em",
                   letterSpacing: "4.09px",
                 }}
               >
@@ -44,7 +44,7 @@ export default function Home() {
                 className="text-center p-5 font-bold"
                 style={{
                   color: "#CEE3E9",
-                  fontSize: "28px",
+                  fontSize: "1.75em",
                   letterSpacing: "-0.3px",
                 }}
               >
@@ -60,7 +60,7 @@ export default function Home() {
             className="button flex justify-center items-center"
             onClick={handleButtonClick}
           >
-            <Image src="/shape.svg" width={28} height={28} />
+            <Image src="shape.svg" width={28} height={28} />
           </button>
         </div>
       </div>

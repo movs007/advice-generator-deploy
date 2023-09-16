@@ -45,3 +45,19 @@ body {
 .button:hover {
   box-shadow: 0 0 1rem 2px rgba(83, 255, 169, 0.534);
 }
+@media screen and (max-width: 900px) {
+  .card-container {
+    width: 60%;
+    height: 70vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card-container {
+    width: 70%;
+    height: 80vh;
+  }
+  .button {
+    left: 38%;
+  }
+}
